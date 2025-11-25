@@ -1,0 +1,15 @@
+
+# List of resource files that kustomize reads, modifies
+# and emits as a YAML string
+resources:
+- ../../../base/web
+
+# Get the value for the database name from the configmap 
+# instead of the environment variable
+patchesStrategicMerge:
+- patch_db.yaml
+apiVersion: kustomize.config.k8s.io/v1beta1
+kind: Kustomization
+images:
+- name: localhost:5000/roar-web
+  newTag: 0.0.56

@@ -1,0 +1,21 @@
+# Common label to be applied
+commonLabels:
+  variant: prod
+
+namespace: roar-prod
+
+# List of resource files that kustomize reads, modifies
+# and emits as a YAML string
+resources:
+- ./db
+- ./web
+- namespace.yaml
+
+
+
+              
+
+
+
+
+          
