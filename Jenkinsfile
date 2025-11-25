@@ -1,5 +1,5 @@
 pipeline {
-    agent { label 'worker_node1' }
+    agent { label 'jenkins' }
     environment {
         STAGE_VERSION = "0.0.${BUILD_NUMBER}"
         RC_VERSION = "1.0.${BUILD_NUMBER}"
