@@ -12,7 +12,7 @@ spec:
         app: roar-web
     spec:
       containers:
-      - image: localhost:5000/roar-web:v1
+      - image: quay.io/bclaster/roar-web:1.0.1
         imagePullPolicy: Always
         name: roar-web
         ports:

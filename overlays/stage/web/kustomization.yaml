@@ -11,5 +11,5 @@ patchesStrategicMerge:
 apiVersion: kustomize.config.k8s.io/v1beta1
 kind: Kustomization
 images:
-- name: localhost:5000/roar-web
+- name: quay.io/bclaster/roar-web
   newTag: 0.0.56

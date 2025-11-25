@@ -21,7 +21,7 @@ spec:
           value: root+1
         - name: MYSQL_USER
           value: admin
-        image: localhost:5000/roar-db:v1
+        image: quay.io/bclaster/roar-db:1.0.2
         imagePullPolicy: Always
         name: roar-db
         ports:
