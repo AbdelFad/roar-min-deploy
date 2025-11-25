@@ -9,7 +9,6 @@ namespace: roar-prod
 resources:
 - ./db
 - ./web
-- namespace.yaml
 
 
 
