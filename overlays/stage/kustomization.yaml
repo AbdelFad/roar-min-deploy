@@ -9,7 +9,6 @@ namespace: roar-stage
 resources:
 - ./db
 - ./web
-- namespace.yaml
 
 # Generate a configmap of database info
 
